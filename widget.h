@@ -17,6 +17,14 @@ public:
 
 private:
     Ui::Widget *ui;
+
+public slots:
+    void PrintTool();
+    void PrintGo();
+    void PrintPause();
+    void PrintStop();
+    void UpdateBit(bool);
+    void PrintText();
 };
 
 #endif // WIDGET_H
